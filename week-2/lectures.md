@@ -5,4 +5,5 @@ Week 2
 - navigatioin
 - HTML forms [assignment]
 - HTML table [challenge]
-
+- Dropdown (pseudo class, diff between pseudo class and pseudo element)
+- 
