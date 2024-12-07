@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML forms</title>
+    <style>
+        form {
+            border: 1px solid black;
+            padding: 5px;
+            width: 60%;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Your details:</legend>
+            <ol>
+                <li>
+                    <label for="fname">Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="First and last name">
+                </li>
+                <li>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" placeholder="example@gmail.com">
+                </li>
+                <li>
+                    <label for="phone">Name:</label>
+                    <input type="text" id="phone" name="phone" placeholder="+8801XXXXXXXXX">
+                </li>
+            </ol>
+          </fieldset>
+        <fieldset>
+            <legend>Delivery address:</legend>
+            <ol>
+                <li>
+                    <label for="address">Address:</label>
+                    <textarea name="address" id="address"></textarea>
+                </li>
+                <li>
+                    <label for="postCode">Post Code:</label>
+                    <input type="number" id="postCode" name="postCode">
+                </li>
+                <li>
+                    <label for="country">Country:</label>
+                    <input type="text" id="country" name="country">
+                </li>
+            </ol>
+          </fieldset>
+        <fieldset>
+            <legend>Card details:</legend>
+            <ol>
+                <li>
+                    <fieldset>
+                        <legend>Card type</legend>
+                        <ol>
+                            <li><input type="radio" value="visa">VISA</li>
+                            <li><input type="radio" value="amex">AmEx</li>
+                            <li><input type="radio" value="mastercard">Mastercard</li>
+                        </ol>
+                    </fieldset>
+                </li>
+                <li>
+                    <label for="cardNumber">Post Code:</label>
+                    <input type="number" id="cardNumber" name="cardNumber">
+                </li>
+                <li>
+                    <label for="security">Security Code:</label>
+                    <input type="number" id="security" name="security">
+                </li>
+                <li>
+                    <label for="nameOnCard">Name on card:</label>
+                    <input type="text" id="nameOnCard" name="nameOnCard">
+                </li>
+            </ol>
+          </fieldset>
+          <button type="submit">Buy it</button>
+          <button type="reset">Reset</button>
+    </form>
+</body>
+</html>

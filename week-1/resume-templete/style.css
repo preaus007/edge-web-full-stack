@@ -1,0 +1,124 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;700&display=swap");
+
+/* Global Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+/* General Styles */
+img {
+  width: 100%;
+}
+hr {
+  width: 100%;
+  margin: 10px 0;
+}
+
+/* Container Styles */
+.container {
+  max-width: 980px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+}
+
+/* Left Section */
+.left {
+  flex: 3;
+  background-color: #163853;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.person {
+  margin: 0 auto;
+}
+.person .profile {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.contact,
+.education,
+.skills,
+.languages {
+  width: 100%;
+}
+
+.list {
+  padding-left: 20px;
+}
+
+.phone,
+.email,
+.address,
+.website {
+  display: flex;
+  align-items: center;
+  margin: 5px 0;
+}
+i {
+  margin-right: 10px;
+}
+
+/* Right Section */
+.right {
+  flex: 7;
+  padding: 20px;
+}
+.name_container {
+  margin-bottom: 20px;
+}
+.name {
+  font-size: 32px;
+  font-weight: bold;
+  color: gray;
+}
+.name span {
+  color: #163853;
+}
+.designation {
+  color: gray;
+}
+.bottom-line {
+  width: 10%;
+  height: 3px;
+  background-color: #163853;
+}
+.others {
+  margin-bottom: 20px;
+}
+.work-experience ul {
+  list-style-position: inside;
+}
+
+.jobs {
+  border-left: 3px solid black;
+  padding-left: 30px;
+}
+.job {
+  position: relative;
+  margin-bottom: 20px;
+}
+.job::before {
+  content: "";
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  border: 3px solid black;
+  border-radius: 50%;
+  position: absolute;
+  left: -45px;
+}
+.ref_content {
+  display: flex;
+  justify-content: space-between;
+}
