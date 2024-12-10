@@ -139,3 +139,48 @@ nav {
   font-weight: 600;
   color: var(--primary-color);
 }
+/* WOW feature */
+.wow-feature {
+  margin: 50px 0;
+  display: flex;
+  gap: 30px;
+}
+.love-content {
+  width: 568px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.love-content > h1 {
+  border-left: 3px solid var(--primary-color);
+  padding-left: 15px;
+}
+.feature-cards {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.feature-card {
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 5px 5px 5px #aaaaaa;
+}
+.experience-arch-img {
+  flex: 6;
+  position: relative;
+}
+.experience-arch-img img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  height: 90%;
+  border-radius: 5px;
+}
+.experience-card {
+  padding: 20px 40px;
+  color: white;
+  background-color: var(--primary-color);
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+}
