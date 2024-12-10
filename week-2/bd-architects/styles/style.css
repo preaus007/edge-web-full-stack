@@ -23,6 +23,12 @@ a {
   text-decoration: none;
   cursor: pointer;
 }
+p {
+  color: rgb(114, 114, 114);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+}
 .btn {
   padding: 16px 28px;
   border: none;
@@ -38,6 +44,9 @@ header {
 .container {
   max-width: 1140px;
   margin: auto;
+}
+
+.header {
   display: flex;
   flex-direction: column;
   gap: 50px;
@@ -94,4 +103,39 @@ nav {
   background-color: var(--primary-color);
   border-radius: 5px;
   color: white;
+}
+/* Main */
+.features {
+  margin: 50px;
+  display: flex;
+  gap: 40px;
+  align-items: center;
+}
+.img-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.img-grid > img {
+  width: 200px;
+  height: 200px;
+  border-radius: 5px;
+}
+.feature-content {
+  width: 50%;
+}
+.feature-content > h1 {
+  font-weight: 500;
+  color: gray;
+}
+.feature-content p {
+  margin: 10px 0;
+}
+.feature-content .text-bold {
+  font-weight: 600;
+  color: black;
+}
+.feature-content .text-primary {
+  font-weight: 600;
+  color: var(--primary-color);
 }
