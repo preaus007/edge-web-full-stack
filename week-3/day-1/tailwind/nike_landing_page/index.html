@@ -3,12 +3,65 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Nike shoes landing page</title>
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <title>Nike</title>
     <link rel="stylesheet" href="./style.css" />
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="./script.js"></script>
   </head>
   <body>
-    <h1 class="text-3xl font-bold underline text-clifford">Hello world!</h1>
+    <header class="w-full sm:px-16 px-8 py-8 absolute z-10">
+      <nav class="max-container flex justify-between items-center">
+        <a href="/">
+          <img
+            src="./assets/images/header-logo.svg"
+            alt="Logo"
+            width="130"
+            height="29"
+          />
+        </a>
+        <ul
+          class="flex-1 flex justify-center items-center gap-16 max-lg:hidden"
+        >
+          <li>
+            <a
+              href="#"
+              class="fonts-montserrat leading-normal text-lg text-slate-gray"
+              >Home</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="fonts-montserrat leading-normal text-lg text-slate-gray"
+              >About Us</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="fonts-montserrat leading-normal text-lg text-slate-gray"
+              >Products</a
+            >
+          </li>
+          <li>
+            <a
+              href="#"
+              class="fonts-montserrat leading-normal text-lg text-slate-gray"
+              >Contact Us</a
+            >
+          </li>
+        </ul>
+        <div>
+          <img
+            src="./assets/icons/hamburger.svg"
+            alt="Menu"
+            width="25"
+            height="25"
+            class="hidden max-lg:block"
+          />
+        </div>
+      </nav>
+    </header>
   </body>
 </html>
